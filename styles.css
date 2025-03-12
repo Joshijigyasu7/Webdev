@@ -1,0 +1,49 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.center{
+  text-align: center;
+}
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+   background-color: brown;
+   padding: 10px 0;
+   margin: auto;
+   width:22%;
+   border-radius: 20px;
+   margin-top:10px ;
+}
+.column{
+  padding: 19px;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 55px;
+}
+.row{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  
+}
+.small{
+  padding: 18px;
+}
+.input input{
+  width:230px;
+  height:30px;
+}
